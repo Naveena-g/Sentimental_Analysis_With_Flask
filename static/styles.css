@@ -1,0 +1,65 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('../static/emoji1.jpg'); /* Ensure the path is correct */
+    background-size: cover; /* Make the background image cover the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-attachment: fixed; /* Make the background image stay fixed while scrolling */
+    height: 100vh; /* Make sure the body takes the full viewport height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Heading styling */
+h1 {
+    color: #ffffff;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+/* Form styling */
+form {
+    background-color: rgba(210, 179, 179, 0.9); /* Transparent white background */
+    padding: 30px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    width: 400px;
+}
+
+/* Textarea styling */
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: 1px solid #e4e4ae;
+    resize: none;
+}
+
+
+/* Submit button styling */
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #046807;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #4b7fe8;
+}
+
+/* Prediction text styling */
+h2 {
+    color: #ffecec;
+    text-align: center;
+    margin-top: 30px;
+}
